@@ -7,7 +7,7 @@ f.write('''import turtle
 wn=turtle.Screen()
 wn.title("DrawingApp @forFOSS")
 wn.bgcolor("black")
-wn.setup(width=800,height=800)
+wn.setup(width=801,height=800)
 wn.tracer(0)
 
 
@@ -20,22 +20,26 @@ brush.goto(0,0)
 #end of inits\n''')
 wn=turtle.Screen()
 wn.title("DrawingApp @forFOSS")
-wn.bgcolor("black")
-wn.setup(width=800,height=800)
+wn.bgcolor("white")
+wn.setup(width=1000,height=900)
 wn.tracer(0)
 
+#adding_a_shape
+wn.addshape("1.gif")
 
-#brushtool
+#brush_tool
 brush=turtle.Turtle()
 brush.speed(0)
-brush.shape("circle")
-brush.color("white")
+brush.shape("1.gif")
+brush.color("black")
 brush.goto(0,0)
 
-#brushfunctions
+#brush_functions
+brush.settiltangle(90)
 def brush_right():
     x=brush.xcor()
     x+=10
+    brush.tilt(90)
     brush.setx(x)
     f.write('''x=brush.xcor()
 x+=10
