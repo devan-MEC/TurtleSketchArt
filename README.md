@@ -17,7 +17,7 @@ Simple Drawing app using the turtle module using python
 
 
 
-# WHAT THE PROGRAM DOES
+# WHAT THE CODE DOES
 - Let's you sketch using the turtle module in python
 - saves your sketch in the form of turtle commands to a .txt file 
   which you can later rename to a .py file.
