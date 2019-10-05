@@ -2,7 +2,7 @@
 Simple Drawing app using the turtle module using python
 
 # HOW IT WORKS
-- You use the w,s,a,d keys to move the turtle in the up,down,left,right directions.
+- w,s,a,d keys to move the turtle in the up,down,left,right directions.
 - q,e,c,z to move it in the diagonal directions
 - o to turn off the brush and move it
 - i to turn on the brush and pain with it
