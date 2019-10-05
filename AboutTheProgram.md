@@ -10,5 +10,5 @@ Simple Drawing application using turtle,which saves the turtle movement to an ex
 
 # WHAT THE PROGRAM DOES
 - Let's you sketch using the turtle module in python
-- saves your sketch in the form of turtle commands to a text file 
+- saves your sketch in the form of turtle commands to a .txt file 
   which you can later rename to a .py file.
